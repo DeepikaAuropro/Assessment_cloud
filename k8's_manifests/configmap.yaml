@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config
+  namespace: my-namespace
+data:
+  sample.txt: |
+    Hello, this is a sample file
